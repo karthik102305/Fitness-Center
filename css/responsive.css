@@ -1,0 +1,364 @@
+
+@media only screen and (max-width:1200px){ 
+    header .btn-parent {
+        margin: 10px;
+        width: 15%;
+    }
+    header .btn-parent .btn {
+        margin: 0px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:1024px){
+.banner-content h1 {
+    font-size: 100px;
+}
+.banner-content span {
+    font-size: 50px;
+}
+.stock-font h2 {
+    font-size: 100px;
+}
+.gallery-parent {
+    padding: 10px 30px;
+}
+.about-me {
+    padding: 10px 30px;
+}
+.footer-video {
+    padding: 10px 30px;
+}
+.btn-parent {
+    width: 20%;
+}
+
+.btn-parent .btn {
+    font-size: 17px;
+}
+.logo {
+    width: 15%;
+}
+.property-cord .btn-parent {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+}
+@media only screen and (max-width:992px){
+    .menu-item li a{
+        font-size: 16px;
+    }
+    .topic-content1 .btn-parent {
+        width: 50%;
+        text-align: center;
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .topic-content2 .btn-parent {
+        width: 50%;
+        text-align: center;
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .property-cord .btn-parent {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        margin: 10px;
+    }
+    .topic-content1 {
+        padding: 20px;
+    }
+    .topic-content2 {
+        padding: 20px;
+    }
+    .btn{
+        padding: 10px;
+        display: block;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .section2 .stock-font {
+        padding-top: 200px;
+    }
+    .logo {
+        width: 17%;
+    }
+    .about-me {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .about-left {
+        width: 100%;
+    }
+    .about-right {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px;
+    }
+    .left {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .right {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width:768px){
+    HEADER{
+        position: relative;
+        justify-content: space-between;
+        padding: 0px 50px;
+    }
+    HEADER .btn-parent {
+        display: none;
+    }
+    .nav-bar {
+        display: block;
+    }
+    .logo {
+        width: 15%;
+    }
+    .menu-item{
+        padding: 50px;
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        top: -450px;
+        flex-direction: column;
+        background-color: black;
+        transition: .4s;
+    }
+    .menu-item li {
+        text-align: center;
+        padding: 6px 20px;
+        transition: .2s;
+    }
+    .menu-item li:hover a {
+        border: 1px solid rgb(149, 147, 147);
+        padding: 2px 70px;
+    }
+    .menu-item li a{
+        font-size: 16px;
+        letter-spacing: 2px;
+    } 
+    .menu-item li > a::after{
+        content: "";
+        display: none;
+    }
+    .section2 {
+        width: 100%;
+    }
+    .img-parent{
+        margin-top: 100px;
+        flex-wrap: wrap;
+    }
+    .left-img{
+        width: 100%;
+    }
+    .rows-parent{
+        flex-wrap: wrap;
+    }
+    .rows{
+        width: 80%;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+    .banner-content span {
+        font-size: 35px;
+        display: block;
+        text-align: center;
+        
+    }
+    .banner-content h1 {
+        font-size: 65px;
+        text-align: center;
+        margin: 20px 0px;
+    }
+    .property-cord .btn-parent {
+        width: 70%;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .banner-content .btn-parent {
+        width: 100%;
+        margin: 30px auto;
+    }
+    .banner-content .btn-parent .btn {
+        width: 30%;
+        margin: 0px auto;
+    }
+    .btn-parent .btn {
+        display: block;
+        text-align: center;
+        background-color: transparent;
+        margin: 10px auto;
+        width: 100%;
+        font-size: 20px;
+    }
+    .banner-content {
+        margin-top: 30px;
+    }
+    .stock-font h2 {
+        font-size: 80px;
+    }
+    .gallery-parent {
+        width: 100%;
+    }
+    .gallery {
+        width: 100%;
+    }
+    .cord-parent {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+          text-align: center;
+    }
+    .property-cord {
+        width: 70%;
+        margin-bottom: 50px;
+    }
+    .about-me {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .about-left {
+        width: 100%;
+    }
+    .about-right {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px;
+    }
+    .left {
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+    }
+    .footer-video {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+        /* justify-content: center; */
+    }
+    .footer-info {
+        width: 70%;
+    }
+    .footer-info h3 {
+        text-align: left;
+    }
+    .copy-right p {
+        font-size: 14px;
+    }
+    .copy-right i {
+        font-size: 14px;
+    }
+    .copy-right a {
+        font-size: 14px;
+    }
+    .con span , h3 {
+        display: block;
+        text-align: center;
+    }
+    .drop-down {
+        display: none;
+    }
+}
+@media only screen and (max-width:480px){
+    .logo {
+        width: 17%;
+    }
+    .banner-content .btn {
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+    }
+    .cord-parent {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .property-cord {
+        align-items: center;
+        width: 80%;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .property-cord .btn-parent {
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+    }
+    .topic-content1 .btn-parent {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .topic-content2 .btn-parent {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .topic-content1 p {
+        margin: 0px 0px 10px 0px;
+    }
+    .topic-content2 p {
+        margin: 0px 0px 10px 0px;
+    }
+    .topic-content1 h3 {
+        font-size: 35px;
+    }
+    .topic-content1 {
+        margin-bottom:50px;
+    }
+    .topic-content2 {
+        margin-top:50px;
+    }
+    .section2 h3{
+        font-size: 40px;
+    }
+    .stock-font h2 {
+        font-size: 60px;
+    }
+    .about-right .btn-parent {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .footer-menu {
+        width: 100%;
+    }
+    .footer-menu li {
+        width: 100%;
+        text-align: center;
+    }
+    .copy-right p {
+        font-size: 10px;
+    }
+    .copy-right i {
+        font-size: 10px;
+    }
+    .copy-right a {
+        font-size: 10px;
+    }
+    .menu-item li > a::after{
+        content: "";
+        display: none;
+    }
+    .drop-down {
+        display: none;
+    }
+}
+@media only screen and (max-width:380px){
+    .topic-content1 {
+        z-index: 10;
+        margin-bottom: 50px;
+    }
+    .topic-content2 {
+        z-index: 10;
+        margin-top: 50px;
+    }
+}
